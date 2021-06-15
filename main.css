@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20em;
+    height: 25em;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.background {
+    width: auto;
+    height: 30%;
+    border: 1px solid black;
+   
+}
+
+.bg-img {
+    height: 100%;
+    
+}
+
+.info {
+    display: inline-flex;
+    justify-content: center;
+    height: 40%;
+    border: 1px solid black;
+    position: relative;
+    
+}
+
+.pro-pic {
+   height: 70%;
+   border: 8px solid #eee;
+   border-radius: 50%;
+   position: absolute;
+   top: -40%;
+}
+
+.interactions {
+    width: auto;
+    height: 30%;
+    border: 1px solid black;
+}
